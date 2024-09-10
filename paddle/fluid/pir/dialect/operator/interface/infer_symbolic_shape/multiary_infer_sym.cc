@@ -659,10 +659,10 @@ bool BilinearOpInferSymbolicShape(
 //   return true;
 // }
 
-bool BilinearInterpOpInferSymbolicShape(
-    pir::Operation *op, pir::InferSymbolicShapeContext *infer_context) {
-  return BicubicInterpOpInferSymbolicShape(op, infer_context);
-}
+// bool BilinearInterpOpInferSymbolicShape(
+//     pir::Operation *op, pir::InferSymbolicShapeContext *infer_context) {
+//   return BicubicInterpOpInferSymbolicShape(op, infer_context);
+// }
 
 bool BoxCoderOpInferSymbolicShape(
     pir::Operation *op, pir::InferSymbolicShapeContext *infer_context) {
